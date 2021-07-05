@@ -1,0 +1,38 @@
+.*
+!.gitignore
+!.eslintignore
+!.eslintrc.js
+!.babelrc
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+.vs/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Unit Tests
+TestResults/
+
+
+# Local code coverage results
+
+**/coverage.json
